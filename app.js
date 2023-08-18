@@ -16,7 +16,7 @@ app.post('/', (req, res)=>{
     const n2 = Number(req.body.num2)
 
     const soma = n1 + n2
-
+    
     res.send("Resultado da soma é: " + soma)
 })
 
