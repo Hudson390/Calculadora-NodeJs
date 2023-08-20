@@ -7,6 +7,8 @@ app.use(bodyparser.urlencoded({extended: true}))
 app.use(express.static(__dirname + '/views'));
 app.use(express.static(__dirname + '/public'));
 
+// Rotas
+
 app.get('/',(req, res)=>{
     res.sendFile(__dirname + '/index.html')
 })
